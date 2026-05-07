@@ -1,0 +1,22 @@
+cat > .gitignore <<EOF
+# Build output
+Debug/
+Release/
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# IDE/cache
+.metadata/
+.settings/
+.vscode/
+*.launch
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
